@@ -1,0 +1,161 @@
+body
+{
+    background-color: rgb(51,51,51);
+    margin: 0px;
+}
+
+footer
+{
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(37,37,37);
+}
+
+.navbarul
+{
+    position: fixed;
+    width: 90%;
+    background-color: rgb(37,37,37);
+    list-style: none;
+    display: flex;
+}
+
+.backetautrizbar
+{
+    background-color: rgb(37,37,37);
+    width: 10%;
+    display: flex;
+    list-style: none;
+    position: fixed;
+    right: 0;
+}
+
+.backetautrizbar img
+{
+    padding: 11px;
+}
+
+.backetautrizbar li:hover
+{
+    background-color: rgb(70,70,70);
+}
+
+.backetautrizbar li
+{
+    cursor: pointer;
+    transition: all 0.4s ease; 
+}
+
+.navbarli
+{
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.navbarli a 
+{
+    display: block;
+    color: rgb(44, 176, 123);
+    padding: 20px;
+}
+
+.navbarli:hover
+{
+    background-color: rgb(70,70,70);
+}
+
+.div1
+{
+    height: 1800px;
+    width: 70%;
+
+}
+
+p,a
+{
+    color: rgb(44, 176, 123);
+    margin: 0px;
+}
+
+a
+{
+    font-weight:bold;
+    text-decoration: none;
+}
+
+.inTop 
+{
+    position: fixed;
+    top: 58px;
+    left: 0;
+    bottom: 0%;
+    width: 4%;
+    height: 100%;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    cursor: pointer;
+    background-color: rgb(44, 176, 123);
+    }
+
+.inTop:hover 
+{
+    background-color: rgb(50, 182, 129);
+    opacity: 1;
+    filter: alpha(opacity=100);
+    }
+
+.inTop span
+{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 110%;
+    color: rgb(70,70,70);
+    font-family: Georgia, Times, serif;
+    font-weight: bold;
+}
+
+.dropbtn 
+{
+    background-color: rgb(37,37,37);
+    border: none;
+}
+
+.dropdown
+{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content 
+{
+    background-color: rgb(70,70,70);
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-content a 
+{
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(51,51,51);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: rgb(70,70,70); cursor: pointer;}
+
+.aboutusdiv
+{
+    background-color: pink;
+    width: 80%;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    
+}
