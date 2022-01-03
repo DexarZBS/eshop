@@ -1,0 +1,60 @@
+body
+{
+    margin: 0;
+    background-color: rgb(51,51,51);
+}
+
+.mainlist
+{
+    margin-top: 0%;
+    position: fixed;
+    width: 90%;
+    background-color: rgb(37,37,37);
+    list-style: none;
+    display: flex;
+}
+
+.items
+{
+    padding: 9px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.items:hover
+{
+    background-color: rgb(70,70,70);
+}
+
+.basketlist
+{
+    margin-top: 0%;
+    background-color: rgb(37,37,37);
+    width: 10%;
+    display: flex;
+    list-style: none;
+    position: fixed;
+    right: 0;
+}
+
+.basketlist li:hover
+{
+    background-color: rgb(70,70,70);
+}
+
+.basketlist li
+{
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.items img
+{
+    padding: 6px;
+}
+
+.items p
+{
+    display: block;
+    color: rgb(44, 176, 123);
+}
